@@ -10,11 +10,11 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/dolfly/httpfs/gitfs"
+	"github.com/dolfly/httpfs/indexfs"
+	"github.com/dolfly/httpfs/unionfs"
+	"github.com/dolfly/httpfs/zipfs"
 	"github.com/gin-gonic/gin"
-	"github.com/gnue/httpfs/gitfs"
-	"github.com/gnue/httpfs/indexfs"
-	"github.com/gnue/httpfs/unionfs"
-	"github.com/gnue/httpfs/zipfs"
 	"github.com/jessevdk/go-flags"
 )
 

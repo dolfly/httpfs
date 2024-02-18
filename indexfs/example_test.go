@@ -3,7 +3,7 @@ package indexfs_test
 import (
 	"net/http"
 
-	"github.com/gnue/httpfs/indexfs"
+	"github.com/dolfly/httpfs/indexfs"
 )
 
 /*
@@ -18,7 +18,6 @@ fs := indexfs.New(http.Dir("test"), indexes.DirIndex)
 indexes := indexfs.Indexes{"index.html", "index.htm"}
 fs := indexfs.New(http.Dir("test"), indexes.AutoIndex)
 ```
-
 */
 func ExampleIndexFS() {
 	fs := indexfs.New(http.Dir("sites"), func(fs http.FileSystem, dir string) (http.File, error) {

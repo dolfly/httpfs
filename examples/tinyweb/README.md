@@ -5,7 +5,7 @@ tiny http static server (dir, zip, git)
 ## Installation
 
 ```sh
-$ go get github.com/gnue/httpfs/examples/tinyweb
+$ go get github.com/dolfly/httpfs/examples/tinyweb
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ Arguments:
 
 ## Author
 
-[gnue](https://github.com/gnue)
+[gnue](https://github.com/dolfly)
 
 ## License
 

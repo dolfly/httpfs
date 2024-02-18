@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/gnue/httpfs/zipfs"
+	"github.com/dolfly/httpfs/zipfs"
 )
 
 // Simple zip webserver(use New)

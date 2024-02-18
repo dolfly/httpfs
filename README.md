@@ -20,7 +20,7 @@ Go lang http.FileSystem packages
 
 ## Author
 
-[gnue](https://github.com/gnue)
+[gnue](https://github.com/dolfly)
 
 ## License
 

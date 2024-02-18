@@ -5,13 +5,13 @@ Go lang git http.FileSystem
 ## Installation
 
 ```sh
-$ go get github.com/gnue/httpfs/gitfs
+$ go get github.com/dolfly/httpfs/gitfs
 ```
 
 ## Usage
 
 ```go
-import "github.com/gnue/httpfs/gitfs"
+import "github.com/dolfly/httpfs/gitfs"
 ```
 
 ## Examples
@@ -22,7 +22,7 @@ import "github.com/gnue/httpfs/gitfs"
 package main
 
 import (
-	"github.com/gnue/httpfs/gitfs"
+	"github.com/dolfly/httpfs/gitfs"
 	"net/http"
 )
 
@@ -39,7 +39,7 @@ Simple git webserver
 
 ## Author
 
-[gnue](https://github.com/gnue)
+[gnue](https://github.com/dolfly)
 
 ## License
 

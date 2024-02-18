@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/gnue/httpfs/templatefs"
-	"github.com/gnue/httpfs/templatefs/engines/markdown"
+	"github.com/dolfly/httpfs/templatefs"
+	"github.com/dolfly/httpfs/templatefs/engines/markdown"
 )
 
 // Simple markdown webserver

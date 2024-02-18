@@ -5,13 +5,13 @@ Go lang zip http.FileSystem
 ## Installation
 
 ```sh
-$ go get github.com/gnue/httpfs/zipfs
+$ go get github.com/dolfly/httpfs/zipfs
 ```
 
 ## Usage
 
 ```go
-import "github.com/gnue/httpfs/zipfs"
+import "github.com/dolfly/httpfs/zipfs"
 ```
 
 ## Examples
@@ -22,7 +22,7 @@ import "github.com/gnue/httpfs/zipfs"
 package main
 
 import (
-	"github.com/gnue/httpfs/zipfs"
+	"github.com/dolfly/httpfs/zipfs"
 	"log"
 	"net/http"
 	"os"
@@ -53,7 +53,7 @@ Simple zip webserver(use New)
 package main
 
 import (
-	"github.com/gnue/httpfs/zipfs"
+	"github.com/dolfly/httpfs/zipfs"
 	"log"
 	"net/http"
 )
@@ -75,7 +75,7 @@ Simple zip webserver(use Open)
 
 ## Author
 
-[gnue](https://github.com/gnue)
+[gnue](https://github.com/dolfly)
 
 ## License
 

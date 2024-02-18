@@ -5,13 +5,13 @@ Go lang template http.FileSystem
 ## Installation
 
 ```sh
-$ go get github.com/gnue/httpfs/templatefs
+$ go get github.com/dolfly/httpfs/templatefs
 ```
 
 ## Usage
 
 ```go
-import "github.com/gnue/httpfs/templatefs"
+import "github.com/dolfly/httpfs/templatefs"
 ```
 
 ## Examples
@@ -22,8 +22,8 @@ import "github.com/gnue/httpfs/templatefs"
 package main
 
 import (
-	"github.com/gnue/httpfs/templatefs"
-	"github.com/gnue/httpfs/templatefs/engines/markdown"
+	"github.com/dolfly/httpfs/templatefs"
+	"github.com/dolfly/httpfs/templatefs/engines/markdown"
 	"net/http"
 )
 
@@ -44,8 +44,8 @@ Simple markdown webserver
 package main
 
 import (
-	"github.com/gnue/httpfs/templatefs"
-	"github.com/gnue/httpfs/templatefs/engines/markdown"
+	"github.com/dolfly/httpfs/templatefs"
+	"github.com/dolfly/httpfs/templatefs/engines/markdown"
 	"net/http"
 	"strings"
 	"unicode"
@@ -85,7 +85,7 @@ Simple markdown webserver with custom layout
 
 ## Author
 
-[gnue](https://github.com/gnue)
+[gnue](https://github.com/dolfly)
 
 ## License
 

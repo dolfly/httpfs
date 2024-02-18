@@ -3,7 +3,7 @@ package unionfs_test
 import (
 	"net/http"
 
-	"github.com/gnue/httpfs/unionfs"
+	"github.com/dolfly/httpfs/unionfs"
 )
 
 // Simple union file system webserver

@@ -3,7 +3,7 @@ package gitfs_test
 import (
 	"net/http"
 
-	"github.com/gnue/httpfs/gitfs"
+	"github.com/dolfly/httpfs/gitfs"
 )
 
 // Simple git webserver

@@ -1,7 +1,7 @@
 package markdown
 
 import (
-	"github.com/gnue/httpfs/templatefs"
+	"github.com/dolfly/httpfs/templatefs"
 	"github.com/russross/blackfriday"
 )
 

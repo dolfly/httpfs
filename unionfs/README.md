@@ -5,13 +5,13 @@ Go lang union http.FileSystem
 ## Installation
 
 ```sh
-$ go get github.com/gnue/httpfs/unionfs
+$ go get github.com/dolfly/httpfs/unionfs
 ```
 
 ## Usage
 
 ```go
-import "github.com/gnue/httpfs/unionfs"
+import "github.com/dolfly/httpfs/unionfs"
 ```
 
 ## Examples
@@ -22,7 +22,7 @@ import "github.com/gnue/httpfs/unionfs"
 package main
 
 import (
-	"github.com/gnue/httpfs/unionfs"
+	"github.com/dolfly/httpfs/unionfs"
 	"net/http"
 )
 
@@ -39,7 +39,7 @@ Simple union file system webserver
 
 ## Author
 
-[gnue](https://github.com/gnue)
+[gnue](https://github.com/dolfly)
 
 ## License
 

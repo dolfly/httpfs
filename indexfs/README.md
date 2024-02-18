@@ -5,13 +5,13 @@ Go lang index http.FileSystem
 ## Installation
 
 ```sh
-$ go get github.com/gnue/httpfs/indexfs
+$ go get github.com/dolfly/httpfs/indexfs
 ```
 
 ## Usage
 
 ```go
-import "github.com/gnue/httpfs/indexfs"
+import "github.com/dolfly/httpfs/indexfs"
 ```
 
 ## Examples
@@ -22,7 +22,7 @@ import "github.com/gnue/httpfs/indexfs"
 package main
 
 import (
-	"github.com/gnue/httpfs/indexfs"
+	"github.com/dolfly/httpfs/indexfs"
 	"net/http"
 )
 
@@ -51,7 +51,7 @@ fs := indexfs.New(http.Dir("test"), indexes.AutoIndex)
 
 ## Author
 
-[gnue](https://github.com/gnue)
+[gnue](https://github.com/dolfly)
 
 ## License
 
